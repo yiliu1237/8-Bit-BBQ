@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>8-Bit BBQ Grill</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="container">
+
+  <!-- Left Sidebar: Meat Menu -->
+  <div id="menu">
+    <h2>Menu</h2>
+    <div id="menu-grid">
+      <img src="images/Beef_1.png" draggable="true" id="Beef_1" alt="Beef">
+      <img src="images/Beef_2.png" draggable="true" id="Beef_2" alt="Beef">
+      <img src="images/Beef_3.png" draggable="true" id="Beef_3" alt="Beef">
+      <img src="images/Beef_4.png" draggable="true" id="Beef_4" alt="Beef">
+      <img src="images/Pork_1.png" draggable="true" id="Pork_1" alt="Pork">
+      <img src="images/Pork_2.png" draggable="true" id="Pork_2" alt="Pork">
+      <img src="images/Pork_3.png" draggable="true" id="Pork_3" alt="Pork">
+      <img src="images/Chicken_1.png" draggable="true" id="Chicken_1" alt="Chicken">
+      <img src="images/Chicken_2.png" draggable="true" id="Chicken_2" alt="Chicken">
+      <img src="images/Eggplant.png" draggable="true" id="Eggplant" alt="Eggplant">
+      <img src="images/Mushroom.png" draggable="true" id="Mushroom" alt="Mushroom">
+      <img src="images/Potato.png" draggable="true" id="Potato" alt="Potato">
+    </div>
+  </div>
+
+  <!-- Right Side: Grill Area -->
+  <div id="grill-area">
+    <h1>BBQ Grill</h1>
+    <div id="grill">Loading grill...</div>
+    <button id="update-button">Manual Update</button>
+    <button id="clear-button">Clear the Grill</button>
+  </div>
+
+
+  <div id="tools">
+    <h2>Collect</h2>
+    <div id="clip-button-wrapper">
+      <button class="tool-button" id="clip-button">
+        <img src="images/BBQTong.png" alt="Clip Meat">
+      </button>
+      <div class="tool-text">Collect Meat</div>
+    </div>
+
+    <div id="fire-button-wrapper">
+      <button class="tool-button" id="fire-button">
+        <img src="images/Fire.png" alt="Turn on/off Fire">
+      </button>
+      <div class="tool-text">Turn on/off Fire</div>
+    </div>
+  </div>
+
+</div>
+
+<script type="module" src="app.js"></script>
+<script type="module" src="addMeat.js"></script>
+<script type="module" src="collectMeat.js"></script>
+
+</body>
+</html>
