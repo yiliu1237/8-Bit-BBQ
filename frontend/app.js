@@ -1,6 +1,5 @@
 const backendBaseURL = (location.hostname === "localhost") ? "http://localhost:8000" : "https://your-real-backend.com";
 
-
 let grillGridWidth = 1;
 let grillGridHeight = 1;
 
@@ -34,10 +33,10 @@ async function updateGrill() {
   }
 }
 
-
-
+// ==========================================================
 
 document.addEventListener('DOMContentLoaded', () => {
+
     document.getElementById('update-button').addEventListener('click', updateGrill);
 
     document.getElementById('clear-button').addEventListener('click', async () => {
@@ -45,15 +44,12 @@ document.addEventListener('DOMContentLoaded', () => {
             const response = await fetch(`${backendBaseURL}/clear_grill`, { method: 'POST' });
             const result = await response.json();
             console.log('Grill cleared:', result);
-            await updateGrill();  // Refresh grill display after clearing
+            await updateGrill();
         } catch (error) {
             console.error('Error clearing grill:', error);
         }
     });
 });
-
-
-
 
 // Auto update every second
 setInterval(updateGrill, 1000);
@@ -61,9 +57,4 @@ setInterval(updateGrill, 1000);
 // First update
 updateGrill();
 
-
-export {grillGridWidth, grillGridHeight, backendBaseURL}
-
-
-
-
+export { grillGridWidth, grillGridHeight, backendBaseURL };
