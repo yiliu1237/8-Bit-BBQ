@@ -15,6 +15,7 @@ A lightweight web-based BBQ simulation game where you grill pixelated meats, col
 ## Gameplay Preview
 ![Gameplay Preview](https://github.com/yiliu1237/8-Bit-BBQ/blob/main/gameplay/img2.png?raw=true)
 
+![Gameplay](/gameplay/gameplay.gif)
 
 ## How It Works
 - **Frontend**: HTML, CSS, JavaScript
