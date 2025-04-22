@@ -1,6 +1,6 @@
 # 8-Bit BBQ Grill
 
-A lightweight web-based BBQ simulation game where you grill pixelated meats, collect them at the perfect moment,
+A lightweight web-based BBQ simulation game where you grill pixelated meats, collect them at the perfect moment.
 
 ## Gameplay
 
