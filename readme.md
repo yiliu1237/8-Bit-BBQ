@@ -13,9 +13,9 @@ A lightweight web-based BBQ simulation game where you grill pixelated meats, col
 - **Clear Grill**: Reset the grill anytime by pressing "Clear the Grill".
 
 ## Gameplay Preview
-![Gameplay Preview](/gameplay/img2.png)
-
 ![Gameplay](/gameplay/gameplay.gif)
+
+![Gameplay Preview](/gameplay/img2.png)
 
 ## How It Works
 - **Frontend**: HTML, CSS, JavaScript
